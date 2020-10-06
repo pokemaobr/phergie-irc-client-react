@@ -9,9 +9,15 @@
         "issues": "https://github.com/phergie/phergie-irc-client-react/issues",
         "source": "https://github.com/phergie/phergie-irc-client-react"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pokemaobr/phergie-irc-parser"
+        }
+    ],
     "require": {
         "php": ">=5.5",
-        "phergie/phergie-irc-parser": "~2.0",
+        "phergie/phergie-irc-parser": "dev-master",
         "phergie/phergie-irc-generator": "~1.5",
         "phergie/phergie-irc-connection": "~2.0",
         "react/event-loop": "^1.0 || ^0.5",
